@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en" data-lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Privacy — EvenFold</title>
+<meta name="title-en" content="Privacy — EvenFold">
+<meta name="title-zh" content="隐私说明 — 晨昏报">
+<meta name="description" content="How EvenFold handles your sources, third-party AI requests, iCloud sync, and optional account.">
+<meta name="theme-color" content="#F7F4EC" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#151B1D" media="(prefers-color-scheme: dark)">
+<link rel="icon" type="image/png" href="/favicon.png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="canonical" href="https://evenfold.day/privacy/">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://evenfold.day/privacy/">
+<meta property="og:title" content="EvenFold — Your Personal News">
+<meta property="og:description" content="Your day, edited into a personal newspaper for Mac, iPhone, and iPad.">
+<meta property="og:image" content="https://evenfold.day/assets/og-image.png">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="stylesheet" href="/assets/site.css">
+<script src="/assets/config.js"></script>
+<script src="/assets/site.js"></script>
+</head>
+<body>
+<a class="skip" href="#main"><span data-l="en">Skip to content</span><span data-l="zh">跳到正文</span></a>
+<article class="sheet">
+  <header>
+    <div class="folio">
+      <a class="ed" href="/" style="text-decoration:none"><i></i><span data-l="en">EvenFold</span><span data-l="zh">晨昏报</span></a>
+      <nav aria-label="Site"><a href="/"><span data-l="en">Home</span><span data-l="zh">首页</span></a><button type="button" onclick="evenfoldToggleLanguage()" aria-label="Switch language / 切换语言"><span data-l="en">中文</span><span data-l="zh">English</span></button></nav>
+    </div>
+    <div class="dayrule" aria-hidden="true" style="margin-top:14px"><div class="thick"></div><div class="thin"></div><div class="lit"></div>
+      <span class="tick" style="left:25%">06:00</span><span class="tick" style="left:50%">12:00</span><span class="tick" style="left:75%">18:00</span><div class="sun"></div><span class="now"></span></div>
+  </header>
+  <main id="main" class="article">
+    <div data-l="en"><h1 class="hl h-xl" style="margin-top:20px">Privacy</h1>
+<p class="deck">EvenFold (App Store 1.0 for Mac, iPhone, and iPad) writes your newspaper locally on your own device. Here is how the app handles your information.</p>
+<h2>Local-first App Store 1.0, no ads, no tracking</h2>
+<p>You can use EvenFold without an account or subscription. There are no ads, no third-party analytics, and no tracking, and we never sell personal information.</p>
+<p>In App Store v1.0, editions are assembled locally on your device using your own model API key (Bring Your Own Key). EvenFold does not offer cloud edition generation, and our servers do not collect, store, or analyze your sources or editions.</p>
+<h2>Your sources are read on your device</h2>
+<p>When you connect supported sources—such as GitHub, local folders, or Apple Mail accounts on Mac—the app reads them directly on your device. Access tokens and your model API key are stored in the system keychain on that device and are never uploaded to EvenFold's servers.</p>
+<h2>Third-party AI providers and explicit consent</h2>
+<p>EvenFold asks for your explicit permission before sending any selected source material or prompts to a third-party AI model provider. Once you consent and ask the app to write an edition, translate it, or answer a question about a story, your device sends only the selected material directly from your device to the model provider you chose using your own API key—never through EvenFold's servers. That provider's terms and privacy policy govern its processing, and you can change providers or delete your API key at any time in Settings.</p>
+<h2>Optional iCloud sync</h2>
+<p>Editions, notes, and your story feedback stay on your device, or in your own private iCloud / iCloud Drive if you choose iCloud storage and sync. EvenFold cannot access your private iCloud data, and you can delete your editions at any time in Settings.</p>
+<h2>Optional account, subscriptions, and feedback</h2>
+<p>If you choose to sign in, our optional account service at api.evenfold.day stores your email, provider identifier, and signed-in devices so your devices stay linked. Editions are not stored or analyzed on the service (any device relay passes through memory only).</p>
+<p>Optional EvenFold Pro subscriptions are processed by Apple through In-App Purchase; Apple handles your billing details, and EvenFold receives only your App Store entitlement status.</p>
+<p>Feedback you send from the app goes to the EvenFold team along with your platform, app version, interface language, and standard request metadata such as your IP address.</p>
+<h2>Images and App Store updates</h2>
+<p>When a story includes an image from the web, the app loads it directly from its source address without cookies. App Store builds for macOS, iPhone, and iPad receive software updates exclusively through the Apple App Store.</p>
+<p data-contact-row hidden>Questions about privacy: <a class="link" data-contact href="#"></a></p></div>
+    <div data-l="zh"><h1 class="hl h-xl" style="margin-top:20px">隐私说明</h1>
+<p class="deck">晨昏报（App Store 1.0 版，支持 Mac、iPhone 与 iPad）在你的设备上本地生成报纸。下面说明 App 如何处理你的信息。</p>
+<h2>本地优先的 App Store 1.0，没有广告，不做跟踪</h2>
+<p>无需注册晨昏报账号或订阅即可使用。App 不含广告，没有第三方统计或跟踪代码，我们也绝不出售个人信息。</p>
+<p>在 App Store 1.0 版本中，报纸由你使用自己的模型 API 密钥（BYOK）在本机完成生成。晨昏报不提供云端代生成服务，我们的服务器不会收集、存储或分析你的信息来源或报纸内容。</p>
+<h2>来源由你的设备读取</h2>
+<p>连接受支持的来源（如 GitHub、本地文件夹，或在 Mac 上选定 Apple 邮件账户）后，App 会直接在你的设备上读取这些内容；访问凭据和模型 API 密钥均保存在系统钥匙串中，不会上传到晨昏报服务器。</p>
+<h2>第三方 AI 服务商与明确同意</h2>
+<p>在向第三方 AI 模型服务商发送任何选定的来源材料或提问之前，晨昏报会先征得你的明确同意。经你同意后，在撰写、翻译报纸或回答对报道的提问时，App 会使用你自己的 API 密钥，将选定材料从本机直接发送给你选定的模型服务商，不经过晨昏报服务器；相关处理适用该服务商的条款与隐私政策，你可随时在设置中更换服务商或删除 API 密钥。</p>
+<h2>可选 iCloud 同步</h2>
+<p>报纸、批注和反馈都保存在本机；如将存储或同步位置设为 iCloud Drive / 私人 iCloud，则保存在你自己的 iCloud 中。晨昏报无法访问你的私人 iCloud 数据，你也可以随时在设置中删除。</p>
+<h2>可选账号、订阅与反馈</h2>
+<p>登录为可选项。如果你选择登录，位于 api.evenfold.day 的可选账号服务仅会保存你的邮箱、登录服务商标识及已登录设备，用于关联你的设备；服务端不留存、不分析报纸内容（如涉及设备间转发，仅在内存中传输）。</p>
+<p>可选的 EvenFold Pro 订阅由 Apple 通过 App 内购买处理；支付与账单信息由 Apple 保管，晨昏报仅接收订阅权益状态。</p>
+<p>你在反馈面板提交的内容会发送给晨昏报团队，同时附带平台、应用版本、界面语言以及请求自身的网络信息（如 IP 地址）。</p>
+<h2>图片与 App Store 更新</h2>
+<p>报道中出现网络图片时，App 会直接从原地址加载，不携带 Cookie。macOS、iPhone 与 iPad 上的 App Store 版本仅通过 Apple App Store 接收软件更新。</p>
+<p data-contact-row hidden>隐私相关问题：<a class="link" data-contact href="#"></a></p></div>
+  </main>
+  <footer class="foot">
+    <span>© <span data-year>2026</span> EvenFold</span>
+    <nav aria-label="Footer"><a href="/"><span data-l="en">Home</span><span data-l="zh">首页</span></a><a href="/privacy/"><span data-l="en">Privacy</span><span data-l="zh">隐私说明</span></a><a href="/terms/"><span data-l="en">Terms</span><span data-l="zh">使用条款</span></a><a href="/support/"><span data-l="en">Support</span><span data-l="zh">帮助与支持</span></a></nav>
+  </footer>
+</article>
+<script>document.querySelectorAll("[data-year]").forEach(function (n) { n.textContent = new Date().getFullYear(); });</script>
+</body>
+</html>
